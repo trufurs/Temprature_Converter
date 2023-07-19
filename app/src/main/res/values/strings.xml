@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Temprature_converter</string>
+    <string name="Text">celcius to farenheit</string>
+    <string name="Degree">°C</string>
+    <string name="Text2">farenheit to celcius</string>
+    <string name="Degree2">°F</string>
+</resources>
