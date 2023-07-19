@@ -42,8 +42,8 @@
 
     <EditText
         android:id="@+id/inp1"
-        android:layout_width="89dp"
-        android:layout_height="77dp"
+        android:layout_width="143dp"
+        android:layout_height="70dp"
         android:autofillHints=""
         android:ems="10"
         android:foregroundTint="#FFFFFF"
@@ -55,10 +55,10 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintHorizontal_bias="0.231"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.423"
+        app:layout_constraintVertical_bias="0.411"
         tools:ignore="LabelFor,SpeakableTextPresentCheck" />
 
     <TextView
@@ -71,23 +71,23 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintHorizontal_bias="0.59"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44" />
+        app:layout_constraintVertical_bias="0.429" />
 
     <TextView
         android:id="@+id/r1"
-        android:layout_width="105dp"
-        android:layout_height="57dp"
+        android:layout_width="327dp"
+        android:layout_height="65dp"
         android:textColor="#36F12F"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintHorizontal_bias="0.809"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.566" />
+        app:layout_constraintVertical_bias="0.593" />
 
     <Button
         android:id="@+id/button"

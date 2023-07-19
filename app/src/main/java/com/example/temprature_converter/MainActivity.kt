@@ -1,11 +1,13 @@
 package com.example.temprature_converter
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -32,14 +34,17 @@ class MainActivity : AppCompatActivity() {
         result.setOnClickListener {
             if (i== 0) {
                 var  j = inp.text.toString().toFloat()
-                val i = (j*9/5)+32
-                r1.text = i.toString() + getString(R.string.Degree2)
+                j = (((j*9.00)/5)+32.00).toFloat()
+                r1.text = buildString {
+        append(j.toString())
+        append(getString(R.string.Degree2))
+    }
             }
             else
             {
                 var j = inp.text.toString().toFloat()
-                j=(j-32)*(5/9)
-                r1.text = j.toString() + getString(R.string.Degree)
+                j= ((j-32.00)*(5.00/9)).toFloat()
+                r1.text = """$j${getString(R.string.Degree)}"""
             }
         }
     }
